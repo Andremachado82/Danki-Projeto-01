@@ -126,3 +126,36 @@ html, body {
   color: white;
 }
 
+.containerSection {
+  padding: 40px 0;
+  background-color:  rgb(228, 222, 222);
+  text-align: center;
+}
+
+.containerSection h2 {
+  color: #333;
+  font-weight: normal;
+}
+
+.containerSection p {
+  color: #333;
+  margin: 15px 0;
+  font-size: 20px;
+  width: 698px;
+  display: inline-block;
+  text-align: justify;
+}
+
+.arrow {
+  position: relative;
+  top: 60px;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  background-image: url('../images/arrow.png');
+  background-size: 100% 100%;
+  text-align: center;
+
+}
+
