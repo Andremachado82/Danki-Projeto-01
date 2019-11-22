@@ -10,24 +10,27 @@ html, body {
   height: 100%;
 }
 
-.center {
+.center {  
   width: 1280px;
   margin: 0 auto;
+  padding: 0 3%;
 }
 
 
 .header {
+  min-width: 1280px;
   width: 100%;
-  height: 60px;
+  height: 80px;
   background-color: #212343;
 }
 
 .header img {
-  margin: 19px;
+  margin: 25px;
 
 }
 
 .containerBanner {
+  min-width: 1280px;
   width: 100%;
   height: 557px;
   background-image: url('../images/header_bg.png');
@@ -81,7 +84,7 @@ html, body {
   font-size: 18px;
   font-weight: normal ;
   margin-top: 15px;
-  width: 344px;
+  width: 360px;
   height: 55px;
   border: 1px solid #ccc;
 }
@@ -108,10 +111,11 @@ html, body {
 }
 
 .containerList {
+
   padding: 30px;
   margin-top: 100px;
   float: left;
-  width: 619px;
+  width: 519px;
   height: 270px;
   background-color: rgbA(33,35,37,0.7);
 }
@@ -119,7 +123,6 @@ html, body {
 .containerList ul {
   list-style-position: inside;
 }
-
 
 .containerList ul li {
   margin-top: 18px;
@@ -158,4 +161,63 @@ html, body {
   text-align: center;
 
 }
+
+.section-01 {
+  /* min-width: 1280px; */
+  padding: 90px 0;
+}
+
+.section-01 h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+  font-weight: normal;
+}
+
+.containerSection2 {
+  min-width: 1280px;
+  margin-top: 40px 0;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.containerSingle {
+  float: left;
+  width: 33.333%;
+  padding: 30px;
+}
+
+.containerSingle img {
+  width: 80px;
+}
+
+.textContainerSingle h2 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.textContainerSingle p {
+  display: inline-block;
+  text-align: justify;
+  padding: 10px 25px;
+  font-size: 15px;
+  color: #444;
+}
+
+.footer {
+  clear: both;
+  border-top: 3px solid #888;
+  padding: 20px 0;
+  text-align: center;
+} 
+
+.footer p {
+  margin-top: 8px;
+  color: #444;
+}
+
+
+
+
 
